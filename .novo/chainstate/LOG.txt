@@ -1,0 +1,33 @@
+2023/04/23-11:37:58.716368 7faf60a2c200 Recovering log #12
+2023/04/23-11:37:58.716401 7faf60a2c200 Level-0 table #14: started
+2023/04/23-11:37:58.717103 7faf60a2c200 Level-0 table #14: 249 bytes OK
+2023/04/23-11:37:58.719038 7faf60a2c200 Delete type=3 #10
+2023/04/23-11:37:58.719069 7faf60a2c200 Delete type=0 #12
+2023/04/23-11:37:59.264761 7faf52ffd640 Compacting 4@0 + 0@1 files
+2023/04/23-11:37:59.285312 7faf52ffd640 Generated table #16@0: 14290 keys, 2135472 bytes
+2023/04/23-11:37:59.305814 7faf52ffd640 Generated table #17@0: 15051 keys, 2139946 bytes
+2023/04/23-11:37:59.326362 7faf52ffd640 Generated table #18@0: 14786 keys, 2135748 bytes
+2023/04/23-11:37:59.346163 7faf52ffd640 Generated table #19@0: 14126 keys, 2136946 bytes
+2023/04/23-11:37:59.369200 7faf52ffd640 Generated table #20@0: 14101 keys, 2138590 bytes
+2023/04/23-11:37:59.390214 7faf52ffd640 Generated table #21@0: 14535 keys, 2139417 bytes
+2023/04/23-11:37:59.410800 7faf52ffd640 Generated table #22@0: 14219 keys, 2139620 bytes
+2023/04/23-11:37:59.431819 7faf52ffd640 Generated table #23@0: 14571 keys, 2140431 bytes
+2023/04/23-11:37:59.452758 7faf52ffd640 Generated table #24@0: 14509 keys, 2138350 bytes
+2023/04/23-11:37:59.473880 7faf52ffd640 Generated table #25@0: 14388 keys, 2137943 bytes
+2023/04/23-11:37:59.495074 7faf52ffd640 Generated table #26@0: 14994 keys, 2138937 bytes
+2023/04/23-11:37:59.516743 7faf52ffd640 Generated table #27@0: 14748 keys, 2135298 bytes
+2023/04/23-11:37:59.519649 7faf52ffd640 Generated table #28@0: 1498 keys, 197023 bytes
+2023/04/23-11:37:59.519660 7faf52ffd640 Compacted 4@0 + 0@1 files => 25853721 bytes
+2023/04/23-11:37:59.520700 7faf52ffd640 compacted to: files[ 0 13 0 0 0 0 0 ]
+2023/04/23-11:37:59.520762 7faf52ffd640 Delete type=2 #14
+2023/04/23-11:37:59.523088 7faf52ffd640 Delete type=2 #5
+2023/04/23-11:37:59.533260 7faf52ffd640 Delete type=2 #8
+2023/04/23-11:37:59.533329 7faf52ffd640 Delete type=2 #11
+2023/04/23-11:37:59.535532 7faf52ffd640 Moved #16 to level-2 2135472 bytes OK: files[ 0 12 1 0 0 0 0 ]
+2023/04/23-11:37:59.537699 7faf52ffd640 Moved #17 to level-2 2139946 bytes OK: files[ 0 11 2 0 0 0 0 ]
+2023/04/23-11:37:59.539889 7faf52ffd640 Moved #18 to level-2 2135748 bytes OK: files[ 0 10 3 0 0 0 0 ]
+2023/04/23-11:37:59.542020 7faf52ffd640 Moved #19 to level-2 2136946 bytes OK: files[ 0 9 4 0 0 0 0 ]
+2023/04/23-11:37:59.544171 7faf52ffd640 Moved #20 to level-2 2138590 bytes OK: files[ 0 8 5 0 0 0 0 ]
+2023/04/23-11:37:59.546312 7faf52ffd640 Moved #21 to level-2 2139417 bytes OK: files[ 0 7 6 0 0 0 0 ]
+2023/04/23-11:37:59.552622 7faf52ffd640 Moved #22 to level-2 2139620 bytes OK: files[ 0 6 7 0 0 0 0 ]
+2023/04/23-11:37:59.554305 7faf52ffd640 Moved #23 to level-2 2140431 bytes OK: files[ 0 5 8 0 0 0 0 ]
