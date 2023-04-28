@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Novo App - Blockchain</title>
+  <title>Novo App - Control</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -20,10 +20,15 @@
     <a href="control.html">Control</a>
     <a href="#">About</a>
   </div>
-  <div id="output">
-    <h1>Blockchain Info</h1>
-    <pre id="blockchain-info"></pre>
+  <div id="command">
+    <form id="command-form">
+      <label for="command-input">Enter a Novo CLI command:</label>
+      <input type="text" id="command-input" name="command">
+      <input type="submit" value="Submit">
+    </form>
   </div>
-  <script src="/js/blockchain.js"></script>
+  <div id="output"></div>
+  <script src="/js/script.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Novo App - Wallet</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="header">
+    Novo Miners Club
+  </div>
+  <div id="menu">
+    <a href="index.html">Blockchain</a>
+    <a href="wallet.html">Wallet</a>
+    <a href="send.html">Send</a>
+    <a href="receive.html">Receive</a>
+    <a href="ft.html">Tokens</a>
+    <a href="nft.html">NFT</a>
+    <a href="mint.html">Mint</a>
+    <a href="network.html">Network</a>
+    <a href="control.html">Control</a>
+    <a href="#">About</a>
+  </div>
+  <div id="welcome">
+    <h1>Your Wallet</h1>
+    <hr>
+    <h2>Import Private Key</h2>
+    <form id="import-private-key-form">
+      <label for="private-key-input">Enter your private key:</label>
+      <input type="text" id="private-key-input" name="private_key">
+      <input type="submit" value="Import Private Key">
+    </form>
+    <div id="import-private-key-output"></div>
+    <hr>
+    <h2>Backup Wallet</h2>
+    <button id="backup-wallet-button">Backup Wallet</button>
+    <a id="download-backup-link" style="display:none;"></a>
+    <div id="backup-wallet-output"></div>
+  </div>
+  <div id="wallet-info">
+    <h2>Wallet Information</h2>
+    <table>
+      <tr>
+        <th>Balance</th>
+        <td id="balance"></td>
+      </tr>
+      <tr>
+        <th>Unconfirmed Balance</th>
+        <td id="unconfirmed-balance"></td>
+      </tr>
+      <tr>
+        <th>Immature Balance</th>
+        <td id="immature-balance"></td>
+      </tr>
+      <tr>
+        <th>Contract Balance</th>
+        <td id="contract-balance"></td>
+      </tr>
+      <tr>
+        <th>Unconfirmed Contract Balance</th>
+        <td id="unconfirmed-contract-balance"></td>
+      </tr>
+      <tr>
+        <th>Number of Transactions</th>
+        <td id="num-transactions"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="transactions">
+    <h2>Transaction History</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Fee</th>
+          <th>Address</th>
+          <th>Confirmations</th>
+          <th>Transaction ID</th>
+        </tr>
+      </thead>
+      <tbody id="transaction-history">
+      </tbody>
+    </table>
+  </div>
+  <script src="/js/wallet.js"></script>
+</body>
+</html>
+

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Novo App - Blockchain</title>
+  <title>Novo App - Receive</title>
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/qrcode.min.js"></script>
 </head>
 <body>
   <div id="header">
@@ -20,10 +21,16 @@
     <a href="control.html">Control</a>
     <a href="#">About</a>
   </div>
-  <div id="output">
-    <h1>Blockchain Info</h1>
-    <pre id="blockchain-info"></pre>
+  <div id="welcome">
+    <h1>Welcome to Novo App</h1>
+    <hr>
+    <h2>Receive NOVO</h2>
+    <p>Your public key:</p>
+    <div id="public-key"></div>
+    <p>Scan the QR code below to receive NOVO:</p>
+    <div id="qrcode"></div>
   </div>
-  <script src="/js/blockchain.js"></script>
+  <script src="/js/receive.js"></script>
 </body>
 </html>
+

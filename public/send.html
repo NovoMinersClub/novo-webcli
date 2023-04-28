@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Novo App - Send</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="header">
+    Novo Miners Club
+  </div>
+  <div id="menu">
+    <a href="index.html">Blockchain</a>
+    <a href="wallet.html">Wallet</a>
+    <a href="send.html">Send</a>
+    <a href="receive.html">Receive</a>
+    <a href="ft.html">Tokens</a>
+    <a href="nft.html">NFT</a>
+    <a href="mint.html">Mint</a>
+    <a href="network.html">Network</a>
+    <a href="control.html">Control</a>
+    <a href="#">About</a>
+  </div>
+  <div id="send-container">
+    <h1>Send NOVO</h1>
+    <form id="send-form">
+      <label for="send-address">Address:</label>
+      <input type="text" id="send-address" name="send-address" required><br>
+
+      <label for="send-amount">Amount:</label>
+      <input type="number" id="send-amount" name="send-amount" step="0.00000001" min="0.00000001" required><br>
+
+      <label for="send-comment">Comment:</label>
+      <input type="text" id="send-comment" name="send-comment"><br>
+
+      <label for="send-comment-to">Comment to:</label>
+      <input type="text" id="send-comment-to" name="send-comment-to"><br>
+
+      <label for="subtract-fees">Subtract fees from amount:</label>
+      <input type="checkbox" id="subtract-fees" name="subtract-fees"><br>
+
+      <button type="submit">Send NOVO</button>
+    </form>
+  </div>
+  <div id="send-info">
+    <h1>Send Token or NFT</h1>
+    <form id="token-send-form">
+      <label for="token-type">Token Type:</label>
+      <select id="token-type" name="token-type">
+        <option value="FT">FT</option>
+        <option value="NFT">NFT</option>
+      </select><br>
+
+      <label for="token-id">Token ID:</label>
+      <input type="text" id="token-id" name="token-id" required><br>
+
+      <label for="token-value">Token Value:</label>
+      <input type="number" id="token-value" name="token-value" step="0.00000001" min="0.00000001" required><br>
+
+      <label for="token-address">Address:</label>
+      <input type="text" id="token-address" name="token-address" required><br>
+
+      <button type="submit">Send Token or NFT</button>
+    </form>
+  </div>
+  <div id="send-output"></div>
+  <div id="token-send-output"></div>
+  <script src="/js/send.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Novo App - Mint</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="header">
+    Novo Miners Club
+  </div>
+  <div id="menu">
+    <a href="index.html">Blockchain</a>
+    <a href="wallet.html">Wallet</a>
+    <a href="send.html">Send</a>
+    <a href="receive.html">Receive</a>
+    <a href="ft.html">Tokens</a>
+    <a href="nft.html">NFT</a>
+    <a href="mint.html">Mint</a>
+    <a href="network.html">Network</a>
+    <a href="control.html">Control</a>
+    <a href="#">About</a>
+  </div>
+  <div id="mint-container">
+    <h2>Create Token Contract</h2>
+    <form id="create-token-form">
+      <label for="token-type">Token Type (FT or NFT):</label>
+      <input type="text" id="token-type" name="token-type" required>
+      <label for="max-supply">Max Supply:</label>
+      <input type="number" id="max-supply" name="max-supply" required>
+      <label for="metadata">Metadata (JSON):</label>
+      <textarea id="metadata" name="metadata" required></textarea>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+      <button type="submit">Create Token Contract</button>
+    </form>
+    <h3 id="create-token-result"></h3>
+    <hr>
+    <h2>Mint Tokens or NFTs</h2>
+    <form id="mint-token-form">
+      <label for="mint-type">Token Type (FT or NFT):</label>
+      <input type="text" id="mint-type" name="mint-type" required>
+      <label for="token-id">Token ID (txid:vout):</label>
+      <input type="text" id="token-id" name="token-id" required>
+      <label for="token-data">Data (Token value for FT, Metadata for NFT):</label>
+      <textarea id="token-data" name="token-data" required></textarea>
+      <label for="mint-address">Address:</label>
+      <input type="text" id="mint-address" name="mint-address" required>
+      <button type="submit">Mint Token or NFT</button>
+    </form>
+    <h3 id="mint-token-result"></h3>
+    <hr>
+    <h2>Minting Rights</h2>
+    <div id="minting-rights">
+      <!-- Minting rights will be added dynamically here -->
+    </div>
+  </div>
+  <script src="/js/mint.js"></script>
+</body>
+</html>
+
