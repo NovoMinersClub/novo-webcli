@@ -26,12 +26,12 @@ To start using Novo Web CLI, follow these steps:
 
 2. Change to the project directory:
 
-cd novo-webcli
+```cd novo-webcli```
 
 
 3. Run the `run.sh` script with sudo privileges:
 
-sudo bash run.sh
+```sudo bash run.sh```
 
 
 
