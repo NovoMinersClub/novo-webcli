@@ -31,28 +31,64 @@ body {
   background-color: #e6e6e6;
 }
 
-#command {
-  display: flex;
-  flex-direction: column;
+#ft-container,
+#nft-container {
+  padding: 20px;
+}
+
+#ft-container h1,
+#nft-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#ft-container table,
+#nft-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ft-container th,
+#ft-container td,
+#nft-container th,
+#nft-container td {
   padding: 10px;
-}
-
-#command input[type="text"] {
-  padding: 5px;
-  margin-bottom: 10px;
+  text-align: left;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
 }
 
-#command input[type="submit"] {
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: #003399;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+#ft-container th,
+#nft-container th {
+  background-color: #f0f0f0;
+}
+
+#ft-container tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+#ft-info {
+  padding: 20px;
+}
+
+#ft-info h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#ft-info div {
+  margin-bottom: 10px;
+}
+
+#ft-info div span {
+  font-weight: bold;
+}
+
+#ft-token-metadata {
+  white-space: pre-wrap;
+}
+
+#ft-token-metadata span {
+  font-weight: bold;
 }
 
 #output {
@@ -63,3 +99,9 @@ body {
   white-space: pre-wrap;
   font-size: 16px;
 }
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
