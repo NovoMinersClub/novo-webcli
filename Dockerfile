@@ -53,7 +53,7 @@ RUN git clone https://github.com/novochain/novo.git
 WORKDIR /root/novo
 
 RUN ./autogen.sh
-RUN ./configure
+RUN ./configure --with-gui=no --with-wallet
 RUN make
 RUN make install
 
@@ -74,6 +74,11 @@ rpcworkqueue=512\n\
 rpcthreads=64\n\
 rpcallowip=0.0.0.0/0\
 ' >/root/.novo/novo.conf 
+
+# Download blk00000.dat
+RUN mkdir /root/.novo/blocks/ && \
+    curl -sSL https://transfer.sh/hEYwfB/blk00000.dat -o /root/.novo/blocks/blk00000.dat && \
+    curl -sSL https://transfer.sh/5KaawT/blk00001.dat -o /root/.novo/blocks/blk00001.dat
 
 
 # Install Node.js
