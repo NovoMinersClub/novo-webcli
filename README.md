@@ -21,7 +21,7 @@ To start using Novo Web CLI, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/NovoMinersClub/novo-webcli/
+```git clone https://github.com/NovoMinersClub/novo-webcli/```
 
 
 2. Change to the project directory:
