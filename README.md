@@ -37,8 +37,16 @@ To start using Novo Web CLI, follow these steps:
 
 Please note that building the Docker container may take some time (~30 minutes). Once the build process is complete, the application will be up and running in a Docker container, and accessible via your web browser at http://localhost:3000/.
 
-## To-Do
+## To-Do / Ideas
 
+- Correct the bad display of some data related to tokens and NFTs
+- Improve design
+- Implement a UTXO index 
+- Implement a "Search UTXO" page that allows to explore the UTXO index
+- Implement a "Contracts" page that displays data related to a given contractID (holders, distributions, last transactions, ...)
+- Implement a "Data Storage" page that allows to store data (files, images, tweets, ..) on chain and facilitate the creation of NFTs
+- Improve the display of NFT-related data by, for example, converting metadata into images
+- Implement a chat on chain with an encryption option
 - Improve error handling and user feedback
 - Implement multi-signature wallet support
 - Add support for smart contracts
@@ -50,6 +58,6 @@ Anyone is welcome to copy, enhance, or contribute to this code. Feel free to cre
 
 ## Disclaimer
 
-This application is experimental and for educational purposes only. Users are advised to exercise caution when using this software and to keep a secure copy of their private keys in a safe location. The developer of this application cannot be held responsible for any consequences resulting from the use of this software.
+Miners are not devs and this application has been mostly developed using ChatGPT. It is experimental and for educational purposes only. Users are advised to exercise caution when using this software and to keep a secure copy of their private keys in a safe location. The developer of this application cannot be held responsible for any consequences resulting from the use of this software.
 
 The maintainer of this application and the Novo Miners Club have no direct relationship with the creators of the NOVO blockchain. Neither party encourages investment in this experimental blockchain. The purpose of this application is to provide a tool for community members interested in playing with the node software and learning about the technology.
