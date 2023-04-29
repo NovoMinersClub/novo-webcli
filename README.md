@@ -2,9 +2,9 @@
 
 **Novo Web CLI** is an experimental, dockerized web app that simplifies interactions with the Novo node, providing an easy-to-use interface for users.
 
-[novoappscreen](https://user-images.githubusercontent.com/131675747/235297176-ff47babd-d60f-4401-8625-a5da24a20f63.png)
+![Screenshot](https://user-images.githubusercontent.com/131675747/235297176-ff47babd-d60f-4401-8625-a5da24a20f63.png)
 
-## Features!
+## Features
 
 - User-friendly interface for managing Novo node operations
 - Supports both fungible token (FT) and non-fungible token (NFT) operations
