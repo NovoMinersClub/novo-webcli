@@ -4,8 +4,8 @@
 
 FROM ubuntu:20.04
 
-LABEL maintainer="code@radiant4people.com"
-LABEL version="1.0.0"
+LABEL maintainer="novominersclub@gmail.com"
+LABEL version="0.1.0"
 LABEL description="Docker image for web app and novo node"
 
 ARG DEBIAN_FRONTEND=nointeractive
